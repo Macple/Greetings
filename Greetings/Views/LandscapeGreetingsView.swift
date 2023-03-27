@@ -1,35 +1,32 @@
 //
-//  ContentView.swift
+//  LandscapeGreetingsView.swift
 //  Greetings
 //
-//  Created by Maciej Plewko on 25/03/2023.
+//  Created by Maciej Plewko on 27/03/2023.
 //
 
 import SwiftUI
 
-/// This is the main view of tje Greetings App.
-struct GreetingsView: View {
+struct LandscapeGreetingsView: View {
     var body: some View {
         ZStack(alignment: .leading) {
             BackgroundView()
             
-            VStack(alignment: .leading) {
+            HStack() {
                 
-                TitleView()
+                VerticalTitleView()
                 
                 Spacer()
                 
                 MessagesView()
                 
-                Spacer()
-                Spacer()
             }
         }
     }
 }
 
-struct GreetingsView_Previews: PreviewProvider {
+struct LandscapeGreetingsView_Previews: PreviewProvider {
     static var previews: some View {
-        GreetingsView()
+        LandscapeGreetingsView()
     }
 }

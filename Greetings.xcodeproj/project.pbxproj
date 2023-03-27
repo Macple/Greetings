@@ -19,6 +19,8 @@
 		30CBB1B629D1A6C3004AC765 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1B529D1A6C3004AC765 /* TitleView.swift */; };
 		30CBB1B829D1A6FA004AC765 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1B729D1A6FA004AC765 /* TextView.swift */; };
 		30CBB1BA29D1A7E9004AC765 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1B929D1A7E9004AC765 /* DataItemModel.swift */; };
+		30CBB1BE29D1ACA2004AC765 /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */; };
+		30CBB1C029D1B88B004AC765 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1BF29D1B88B004AC765 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		30CBB1B529D1A6C3004AC765 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		30CBB1B729D1A6FA004AC765 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		30CBB1B929D1A7E9004AC765 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
+		30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
+		30CBB1BF29D1B88B004AC765 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				30CBB1B329D1A66C004AC765 /* MessagesView.swift */,
 				30CBB1B529D1A6C3004AC765 /* TitleView.swift */,
 				30CBB1B729D1A6FA004AC765 /* TextView.swift */,
+				30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */,
+				30CBB1BF29D1B88B004AC765 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,10 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				30CBB1BA29D1A7E9004AC765 /* DataItemModel.swift in Sources */,
+				30CBB1C029D1B88B004AC765 /* MainView.swift in Sources */,
 				30CBB1B429D1A66C004AC765 /* MessagesView.swift in Sources */,
 				30CBB1B229D1A62B004AC765 /* BackgroundView.swift in Sources */,
 				30CB8B4B29CE6AAE00A38906 /* GreetingsView.swift in Sources */,
 				30CBB1B829D1A6FA004AC765 /* TextView.swift in Sources */,
+				30CBB1BE29D1ACA2004AC765 /* LandscapeGreetingsView.swift in Sources */,
 				30CB8B4929CE6AAE00A38906 /* GreetingsApp.swift in Sources */,
 				30CBB1B629D1A6C3004AC765 /* TitleView.swift in Sources */,
 			);
