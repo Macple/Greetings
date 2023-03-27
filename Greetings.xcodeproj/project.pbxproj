@@ -21,6 +21,7 @@
 		30CBB1BA29D1A7E9004AC765 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1B929D1A7E9004AC765 /* DataItemModel.swift */; };
 		30CBB1BE29D1ACA2004AC765 /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */; };
 		30CBB1C029D1B88B004AC765 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1BF29D1B88B004AC765 /* MainView.swift */; };
+		30CBB1C329D1C37E004AC765 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB1C229D1C37E004AC765 /* LanguageOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		30CBB1B929D1A7E9004AC765 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
 		30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
 		30CBB1BF29D1B88B004AC765 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		30CBB1C129D1BFB9004AC765 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30CBB1C229D1C37E004AC765 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 				30CBB1B729D1A6FA004AC765 /* TextView.swift */,
 				30CBB1BD29D1ACA2004AC765 /* LandscapeGreetingsView.swift */,
 				30CBB1BF29D1B88B004AC765 /* MainView.swift */,
+				30CBB1C229D1C37E004AC765 /* LanguageOptionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +155,7 @@
 				en,
 				Base,
 				pl,
+				ar,
 			);
 			mainGroup = 30CB8B3C29CE6AAE00A38906;
 			productRefGroup = 30CB8B4629CE6AAE00A38906 /* Products */;
@@ -185,6 +190,7 @@
 				30CBB1BA29D1A7E9004AC765 /* DataItemModel.swift in Sources */,
 				30CBB1C029D1B88B004AC765 /* MainView.swift in Sources */,
 				30CBB1B429D1A66C004AC765 /* MessagesView.swift in Sources */,
+				30CBB1C329D1C37E004AC765 /* LanguageOptionsView.swift in Sources */,
 				30CBB1B229D1A62B004AC765 /* BackgroundView.swift in Sources */,
 				30CB8B4B29CE6AAE00A38906 /* GreetingsView.swift in Sources */,
 				30CBB1B829D1A6FA004AC765 /* TextView.swift in Sources */,
@@ -202,6 +208,7 @@
 			children = (
 				3035D6D829D11F3000AE20DA /* pl */,
 				3035D6DA29D11F4D00AE20DA /* en */,
+				30CBB1C129D1BFB9004AC765 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
